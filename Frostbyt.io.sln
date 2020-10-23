@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Frostbyt.io", "Frostbyt.io\Frostbyt.io.njsproj", "{5D428C9F-ACF0-441A-80D7-7AA160C5DFE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D428C9F-ACF0-441A-80D7-7AA160C5DFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D428C9F-ACF0-441A-80D7-7AA160C5DFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D428C9F-ACF0-441A-80D7-7AA160C5DFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D428C9F-ACF0-441A-80D7-7AA160C5DFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C028E1CB-7CAC-4FC4-8C13-BCEFFE98B021}
+	EndGlobalSection
+EndGlobal
