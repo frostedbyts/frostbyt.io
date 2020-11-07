@@ -1,18 +1,37 @@
 <template>
-    <transition name="modal-fade">
-        <div class="modal" role="dialog" aria-labelledby="modalTitle" aria-describedby="modalDescription">
+    <div class="modal-fade" id="contactModal" role="dialog" aria-label="Contact Me" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header" id="modalTitle">
-                    <slot name="header">
-                        <h5 class="modal-title">Contact Me</h5>
-                        <button type="button" class="close" @clik="close" aria-label="Close">
-                            X
-                        </button>
-                    </slot>
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Me</h5>
+                    <button type="button" class="close" aria-label="Close" @click="close">X</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <form action="mailto:turner@frostbyt.io" method="post" enctype="text/plain">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label for="senderEmail">Email Address</label>
+                                    <input type="email" class="form-control" id="senderEmail" placeholder="Enter your email address" v-model="contact.Email" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="messageSubject">Message Subject</label>
+                                    <input type="text" class="form-control" id="messageSubject" placeholder="Subject of your message" v-model="contact.Subject" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="messageContent">Message Details</label>
+                                    <textarea class="form-control" v-model="contact.Message" placeholder="Enter your message here" id="messageContent"></textarea>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" @click="submit" class="btn btn-primary btn-lg">Contact</button>
                 </div>
             </div>
         </div>
-    </transition>
+    </div>
     
     <!--<div class="modal" id="contactModal" tabindex="-1" aria-hidden="false">
         <div class="modal-dialog" role="document">
@@ -97,16 +116,4 @@
 </script>
 
 <style scoped>
-    .modal-backdrop {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #303030;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0.3;
-  }
 </style>

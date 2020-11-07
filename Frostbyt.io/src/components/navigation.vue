@@ -15,13 +15,10 @@
                     <a class="nav-link" href="https://frostbyt.com">My Blog</a>
                 </li>
                 <li class="nav-item">
-                    <router-link  class="nav-link" to="/portfolio">Portfolio</router-link>
+                    <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
                 </li>
             </ul>
-            <!--<form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-secondary my-2 my-sm-0" @click="showModal">Contact</button>
-                <modal v-show="isModalVisible" @close="closeModal"/>
-            </form>-->
+            
         </div>
     </nav>
 </template>

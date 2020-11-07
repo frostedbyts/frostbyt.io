@@ -1,5 +1,6 @@
 <template>
     <div>
+        <modal v-show="isModalVisible" @close="closeModal" />
         <section class="section">
             <div class="container-fluid">
                 <div class="text-center">
@@ -18,21 +19,35 @@
                     </p>
                 </div>
                 <div class="text-center">
-                    <a class="btn btn-primary btn-lg" href="https://github.com/frostedbyts">Github</a>
+                    <a class="btn btn-primary btn-lg mr-1" href="https://github.com/frostedbyts">Github</a>
+                    <button type="button" class="btn btn-secondary btn-lg" @click="showModal">Contact</button>
                 </div>
 
             </div>
         </section>
-        
+
     </div>
 </template>
 
 <script>
-    import Contact from './Contact.vue'
+    import modal from './Contact.vue'
     export default {
         name: 'Lander',
         components: {
-            Contact
+            modal
+        },
+        data() {
+            return {
+                isModalVisible: false
+            };
+        },
+        methods: {
+            showModal() {
+                this.isModalVisible = true;
+            },
+            closeModal() {
+                this.isModalVisible = false;
+            }
         }
     }
     
@@ -49,5 +64,9 @@
         display: flex;
         align-items: center;
         justify-content: center
+     }
+
+     .section-stack-top{
+         z-index: 10
      }
 </style>
