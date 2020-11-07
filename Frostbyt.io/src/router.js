@@ -5,6 +5,7 @@ const router = new VueRouter({
     routes: [
         { path: '/', name: 'Landing', component: () => import('./components/Lander') },
         { path: '/portfolio', name: 'Portfolio', component: () => import('./components/Portfolio') },
+        { path: '/contact', name: "Contact", component: () => import('./components/Contact') },
     ]
 });
 export default router;

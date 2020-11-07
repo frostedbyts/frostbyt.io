@@ -18,22 +18,12 @@
                     </p>
                 </div>
                 <div class="text-center">
-                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact</button>
+                    <a class="btn btn-primary btn-lg" href="https://github.com/frostedbyts">Github</a>
                 </div>
 
             </div>
         </section>
-        <!-- modal for contact -->
-        <section class="container-center">
-            <div class="modal fade bd-example-modal-lg" tabindex="-1"
-                 role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <contact/>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
     </div>
 </template>
 

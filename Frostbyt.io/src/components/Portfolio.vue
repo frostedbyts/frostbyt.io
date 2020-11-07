@@ -34,7 +34,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a href="https://vanguard.hyvemined.com" class="btn btn-outline-secondary">Live Site</a>
+                            <a href="https://vanguard.hyvemined.com" class="btn btn-secondary">Live Site</a>
                         </div>
                     </div>
                 </div>
