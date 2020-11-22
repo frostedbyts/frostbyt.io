@@ -30,7 +30,7 @@
                             <p>
                                 This is a custom threat intelligence API and feed aggregator I built in C# using .NET Core 3.1. This API/aggregator aggregates or pulls from almost 30 different sources to aggregate and index both directly
                                 and indirectly hundreds of different threat intelligence feeds and exposes them through a simple, standard API with relatively fast querying abilities (within seconds). The database portion of the API is powered by Entity Framework Core and at last count was indexing almost 200,000+
-                                unique threat intelligence reports. The UI/documentation was built using SwaggerUI via the Swashbuckle library for .NET Core. Unfortunately, due to security and copyright concerns, I am unable to provide a live link to this site except to those who work at my employer
+                                unique threat intelligence reports. The UI/documentation was built using SwaggerUI via the Swashbuckle library for .NET Core. Unfortunately, due to security and copyright concerns, I am unable to provide a live link to this site except to those who work for my employer.
                             </p>
                         </div>
                     </div>
