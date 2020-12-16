@@ -36,6 +36,7 @@
     <Content Include="src\App.vue" />
     <Content Include="src\assets\images\cropped_profile.png" />
     <Content Include="src\assets\images\now_run.png" />
+    <Content Include="src\assets\images\site.png" />
     <Content Include="src\assets\images\vanguard_api.png" />
     <Content Include="src\components\Contact.vue">
       <SubType>Code</SubType>
