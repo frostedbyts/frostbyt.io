@@ -62,7 +62,7 @@
                 <div class="col">
                     <div class="card-body">
                         <div class="text-center card-title">
-                            <img alt="Frostbyt.io/this site" class="rounded-circle" src="@/assets/images/site.png"/> 
+                            <img alt="Frostbyt.io/this site" class="rounded-circle img-thumb" src="@/assets/images/site2.png"/> 
                         </div>
                         <div class="text-center card-title">
                             <h4>This Site</h4>
