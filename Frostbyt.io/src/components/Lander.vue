@@ -20,7 +20,7 @@
                 </div>
                 <div class="text-center">
                     <a class="btn btn-primary btn-lg mr-1" href="https://github.com/frostedbyts">Github</a>
-                    <button type="button" class="btn btn-secondary btn-lg" @click="showModal">Contact</button>
+                    <!--<button type="button" class="btn btn-secondary btn-lg" @click="showModal">Contact</button>-->
                 </div>
 
             </div>
