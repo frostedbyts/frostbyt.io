@@ -59,23 +59,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card-body">
-                        <div class="text-center card-title">
-                            <img alt="Frostbyt.io/this site" class="rounded-circle img-thumb" src="@/assets/images/site2.png"/> 
-                        </div>
-                        <div class="text-center card-title">
-                            <h4>This Site</h4>
-                        </div>
-                        <div class="text-center">
-                            <p>
-                                This site, my portfolio, is my first 'true' webdev type project in the sense that the majority of it involved writing JavaScript, HTML, and CSS. This entire site has been written in Vue.js
-                                with routing and navigation handled by the vue-router package. The background is from the particles.js library which was a bit of a challenge to get working correctly. The CSS/theme for the site
-                                is the Bootswatch Darkly Bootstrap theme, with minor modifications here and there.
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
