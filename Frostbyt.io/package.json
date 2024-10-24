@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "particles.js": "^2.0.0",
-    "vue": "2.5.17",
+    "vue": "3.0.0",
     "vue-router": "^3.4.7"
   },
   "devDependencies": {
